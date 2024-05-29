@@ -1,0 +1,61 @@
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png);
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.5em;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.galleryv {
+  width: 300px;
+  vertical-align: middle;
+  border: 15px solid whitesmoke;
+  border-bottom: 0;
+}
+
+.galleryh {
+  border: 15px solid whitesmoke;
+  border-bottom: 0;
+  vertical-align: middle;
+  height: 300px;
+}
+
+#vertical {
+  justify-content: space-evenly;
+  row-gap: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+#horizontal {
+  justify-content: space-evenly;
+  column-gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5em;
+}
+
+figure {
+  margin: 0;
+  -webkit-box-shadow: 3px 4px 13px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 4px 13px 3px rgba(0, 0, 0, 0.4);
+}
+
+figcaption {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  color: rgb(75, 74, 103);
+}
